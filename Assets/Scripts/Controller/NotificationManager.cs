@@ -26,7 +26,7 @@ public class NotificationManager : Singleton<NotificationManager> {
     }
 
     public void Generate_GetItem(string ItemName, int count) {
-        string str = "Item yang didapat (" + ItemName + " +" + count + "anjing)";
+        string str = "Mendapatkan " + count + " Item " + ItemName;
         Generate(str);
     }
 

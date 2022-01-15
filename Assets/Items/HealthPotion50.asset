@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b076b83098877643b4018d8ac486462, type: 3}
   m_Name: HealthPotion50
   m_EditorClassIdentifier: 
-  name: "\uCCB4\uB825 \uD68C\uBCF5 \uD3EC\uC158 50"
+  name: Health Potion Large
   icon: {fileID: 730802858080255668, guid: 942ef30022ad8ed4eb20cbbdfed23b38, type: 3}
   isConsumable: 1
   HealthGain: 50
