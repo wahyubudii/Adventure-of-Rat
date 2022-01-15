@@ -18,13 +18,10 @@ MonoBehaviour:
     jadi berhati-hatilah. Bos itu memiliki teknik penyerangan yang hebat dan serang
     saat kamu mengetahui kelemahannya!!!
 
-    
 
-    
-
-    Jika Anda membunuh bos,
-    Anda akan mendapatkan <color=red>key</color>. Selamatkan <color=red>Putri</color>
-    yang terjebak dengan kunci itu!! Jaga dirimu.'
+    Jika Anda membunuh bos, Anda akan
+    mendapatkan <color=red>key</color>. Selamatkan <color=red>Putri</color> yang
+    terjebak dengan kunci itu!! Jaga dirimu.'
   completeDialog: Bagus?? Kamu memang luar biasa..!! Inilah hadiah dariku!
   collectObjectives:
   - item: {fileID: 11400000, guid: 7c2d706873c3a8348be577bcfd66f6ca, type: 2}

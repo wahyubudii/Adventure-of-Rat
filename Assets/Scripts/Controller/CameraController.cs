@@ -50,9 +50,9 @@ public class CameraController : MonoBehaviour {
                 {
                     SecondPoint = Input.GetTouch(0).position;
                     xAngle = xAngleTemp + (SecondPoint.x - FirstPoint.x) * 180 / Screen.width;
-                    yAngle = yAngleTemp - (SecondPoint.y - FirstPoint.y) * 90 * 3f / Screen.height; // Y값 변화가 좀 느려서 3배 곱해줌.
+                    yAngle = yAngleTemp - (SecondPoint.y - FirstPoint.y) * 90 * 3f / Screen.height; // Perubahan nilai Y agak lambat, jadi dikalikan dengan 3.
 
-                    // 회전값을 40~85로 제한
+                    // Nilai rotasi terbatas pada 40-85
                     if(yAngle < -10f)
                     yAngle = -10f;
                 if(yAngle > 30f)
@@ -66,15 +66,15 @@ public class CameraController : MonoBehaviour {
                 }
             }
 #else
-            // 마우스가 눌림
-            if(Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject()) {
+            // if mouse ditekan
+            if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject()) {
                 FirstPoint = Input.mousePosition;
                 xAngleTemp = xAngle;
                 yAngleTemp = yAngle;
                 isMouseDown = true;
             }
 
-            // 마우스가 떼짐
+            // mouse mati
             if(Input.GetMouseButtonUp(0) && !EventSystem.current.IsPointerOverGameObject()) {
                 isMouseDown = false;
             }
@@ -82,10 +82,10 @@ public class CameraController : MonoBehaviour {
             if(isMouseDown) {
                 SecondPoint = Input.mousePosition;
                 xAngle = xAngleTemp + (SecondPoint.x - FirstPoint.x) * 180 / Screen.width;
-                yAngle = yAngleTemp - (SecondPoint.y - FirstPoint.y) * 90 * 3f / Screen.height; // Y값 변화가 좀 느려서 3배 곱해줌.
+                yAngle = yAngleTemp - (SecondPoint.y - FirstPoint.y) * 90 * 3f / Screen.height; // Perubahan nilai Y agak lambat, jadi dikalikan dengan 3.
 
-                // 회전값을 40~85로 제한
-                if(yAngle < -10f)
+                // Nilai rotasi terbatas pada 40-85
+                if (yAngle < -10f)
                     yAngle = -10f;
                 if(yAngle > 30f)
                     yAngle = 30f;
