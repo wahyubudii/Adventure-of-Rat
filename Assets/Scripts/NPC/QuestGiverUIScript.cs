@@ -28,7 +28,7 @@ public class QuestGiverUIScript : MonoBehaviour {
         itemImg.sprite = quest.rewards.ItemReward.icon;
 
         Text itemText = itemImg.transform.GetChild(0).GetComponent<Text>();
-        itemText.text = "<color=#0057EF>" + quest.rewards.ItemReward.name + "</color>   " + quest.rewards.ItemRewardCount + "Anjing";
+        itemText.text = "<color=#0057EF>" + quest.rewards.ItemReward.name + "</color>   ";
 
         rewardsEXP.SetActive(true);
         rewardsEXP.transform.GetChild(0).GetComponent<Text>().text = "<color=yellow>Exp</color>   " + quest.rewards.EXPReward.ToString() + " EXP";

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f67901067f0a6394b9d3050950c65749, type: 3}
   m_Name: SavePrincess_01.KillMonsters
   m_EditorClassIdentifier: 
-  state: 3
-  title: "<\uB108\uAC00 \uC5BC\uB9C8\uB098 \uAC15\uD55C\uC9C0 \uC99D\uBA85\uD574\uC918!>"
+  state: 0
+  title: <Buktikan seberapa kuat kamu!>
   content: 'Putri Kerajaan telah ditangkap oleh Boss Monster...! Hanya orang kuat
     yang bisa menyelamatkan sang putri...! Saya harus menguji seberapa kuat Anda.
 
@@ -21,7 +21,7 @@ MonoBehaviour:
     Dapatkan
     <color=red>10 cangkang siput biru</color> dengan cara membunuh TurtleShell, dan
     <color=red>5 kotak</color> pada saat membunuh ChestMonster.'
-  completeDialog: Bagus?? Kamu sangat kuat..!! kamu bisa pergi melawan bos! Inilah
+  completeDialog: Bagus?? Kamu sangat kuat..!! kamu bisa pergi melawan bos! Terimalah
     hadiah dariku!
   collectObjectives:
   - item: {fileID: 11400000, guid: b0e2214bdf6cb6044b315cf347b636e5, type: 2}
